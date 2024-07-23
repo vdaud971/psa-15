@@ -1,10 +1,10 @@
-package git_example.com;
+package com.example;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GitExamApplicationTests {
+class Demo1ApplicationTests {
 
 	@Test
 	void contextLoads() {

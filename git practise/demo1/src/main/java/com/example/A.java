@@ -1,4 +1,4 @@
-package git_example.com;
+package com.example;
 
 public class A {
     public static void main(String[] args) {
