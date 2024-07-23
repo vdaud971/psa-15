@@ -1,13 +1,13 @@
-package git_example.com;
+package com.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GitExamApplication {
+public class Demo1Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GitExamApplication.class, args);
+		SpringApplication.run(Demo1Application.class, args);
 	}
 
 }

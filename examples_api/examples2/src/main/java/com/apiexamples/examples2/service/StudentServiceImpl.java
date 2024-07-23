@@ -85,6 +85,7 @@ public class StudentServiceImpl implements StudentService{
     public StudentDto mapToDto(Student entity){
         StudentDto dto = new StudentDto();
         dto.setId(entity.getId());
+        dto.setName(entity.getName());
         dto.setClass_of_Student(entity.getClass_of_Student());
         dto.setEmail(entity.getEmail());
         return dto;
